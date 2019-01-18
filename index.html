@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>From Milk to Diary Quiz</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css'>
+
+      <link rel="stylesheet" href="style.css">
+
+  
+</head>
+
+<body>
+
+  <div class='overlay'></div>
+<div class='timer'>0 seconds</div>
+<div class='intro modal'>
+  <div class='intro modal_inner'>
+    <div class='intro modal_inner__close c_modal st'>
+      x
+    </div>
+    <div class='intro modal_inner__title'>
+      <h2>From Milk to Diary Quiz</h2>
+    </div>
+    <div class='intro modal_inner__text'>
+      <p>Drag the icons in the correct order as fast as you can!</p>
+    </div>
+    <div class='intro modal_inner__image'>
+      <img src='img/gif.gif'>
+    </div>
+    <div class='intro modal_inner__cta c_modal'>
+      <button class='st'>Lets go!</button>
+    </div>
+  </div>
+</div>
+<div class='winner modal'>
+  <div class='winner modal_inner'>
+    <div class='winner modal_inner__title'>
+      <h2>
+        Well done, you won in
+        <span class='t'>10.00</span>
+      </h2>
+    </div>
+    <div class='winner modal_inner__text'>
+      <p>You are a proper clever cloggs! Why not share this with a friend and see if they are as smart as you!</p>
+    </div>
+    <div class='winner modal_inner__cta'>
+      <button class='tw'>
+        Tweet
+      </button>
+      
+    </div>
+    <div class='winner modal_inner__restart'>
+    </div>
+  </div>
+</div>
+<div class='planets'>
+  <div class='planets_stars'></div>
+  <div class='planets_container'>
+    <div class='planets_container__title'>
+      <h1>From Milk to Diary Quiz</h1>
+    </div>
+    <div class='planets_container__title'>
+      <h3>Drag the icons into the correct order</h3>
+    </div>
+    <div class='planets_container__planets'>
+      
+      <div class='planet_wrap'>
+        <div class='planet' data-planet='earth'>
+          <img src="img/makemilk.png">
+        </div>
+        <span>Milking</span>
+      </div>
+      <div class='planet_wrap'>
+        <div class='planet' data-planet='saturn'>
+          <img src='img/factory.png'>
+        </div>
+        <span>Factory</span>
+      </div>
+      <div class='planet_wrap'>
+        <div class='planet' data-planet='neptune'>
+          <img src='img/delivery.png'>
+        </div>
+        <span>Delivery</span>
+      </div>
+      <div class='planet_wrap'>
+        <div class='planet' data-planet='mercury'>
+          <img src='img/shopping.png'>
+        </div>
+        <span>Shopping</span>
+      </div>
+      <div class='planet_wrap'>
+        <div class='planet' data-planet='mars'>
+          <img src='img/coweatgrass.png'>
+        </div>
+        <span>Grazing</span>
+      </div>
+      <div class='planet_wrap'>
+        <div class='planet' data-planet='jupiter'>
+          <img src='img/transport.png'>
+        </div>
+        <span>Transport</span>
+      </div>
+      <div class='planet_wrap'>
+        <div class='planet' data-planet='uranus'>
+          <img src='img/supermarket.png'>
+        </div>
+        <span>Supermarket</span>
+      </div>
+    </div>
+    <div class='planets_container__quiz'>
+      <!--<div class='planet_holder sun null' data-planet='sun'>
+        <span>?</span>
+        <div class='planet_answer'>
+          <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/pq_sun.png'>
+        </div>
+      </div>
+      -->
+      <div class='planet_holder mercury' data-planet='mars'>
+        <span>?</span>
+        <div class='planet_answer'>
+          <img src='img/coweatgrass.png'>
+        </div>
+      </div>
+      <div class='planet_holder venus' data-planet='earth'>
+        <span>?</span>
+        <div class='planet_answer'>
+          <img src='img/makemilk.png'>
+        </div>
+      </div>
+      <div class='planet_holder earth' data-planet='jupiter'>
+        <span>?</span>
+        <div class='planet_answer'>
+          <img src='img/transport.png'>
+        </div>
+      </div>
+      <div class='planet_holder mars' data-planet='saturn'>
+        <span>?</span>
+        <div class='planet_answer'>
+          <img src='img/factory.png'>
+        </div>
+      </div>
+      <div class='planet_holder jupiter' data-planet='neptune'>
+        <span>?</span>
+        <div class='planet_answer'>
+          <img src='img/delivery.png'>
+        </div>
+      </div>
+      <div class='planet_holder saturn' data-planet='uranus'>
+        <span>?</span>
+        <div class='planet_answer'>
+          <img src='img/supermarket.png'>
+        </div>
+      </div>
+      <div class='planet_holder uranus' data-planet='mercury'>
+        <span>?</span>
+        <div class='planet_answer'>
+          <img src='img/shopping.png'>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+
+
+    <script  src="index.js"></script>
+
+
+</body>
+
+</html>
